@@ -1,0 +1,27 @@
+.NavBar{
+    width: 100%-100px;
+    height: 80px;
+    background-color: orange;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+.Logo{
+    color: white;
+    font-size: 24px;
+    font-weight: bolder;
+    cursor: pointer;
+
+}
+
+.Login{
+    color: white;
+    margin-left: auto;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.Login > *{
+    padding: 0px 10px;
+}

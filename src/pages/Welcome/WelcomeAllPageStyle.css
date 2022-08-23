@@ -1,0 +1,39 @@
+.WelcomeAllPage{
+    width: 100%;
+    height: 620px;
+    background-color: rgb(93, 128, 158);
+    color: white;
+    font-size: 28px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.rent-a-book-button {
+    background-color: orange;
+    outline: none;
+    border: none;
+    font-size: 14px;
+    font-weight: bolder;
+    width: 200px;
+    color: white;
+    border-radius: 15px;
+    padding:5px;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+.see-my-books-button{
+    background-color: orange;
+    outline: none;
+    border: none;
+    font-size: 14px;
+    font-weight: bolder;
+    width: 200px;
+    color: white;
+    border-radius: 15px;
+    padding:5px;
+    margin-top: 30px;
+    cursor: pointer;
+}

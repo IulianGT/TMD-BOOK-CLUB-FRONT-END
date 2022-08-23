@@ -1,0 +1,98 @@
+.RegisterPage-container{
+    width: 100%;
+    height: 620px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: aqua;
+}
+
+.RegisterPage{
+    width: 320px;
+    height: auto;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: rgb(235, 235, 235);
+    font-weight: bolder;
+    background-color: orange;
+}
+
+.RegisterPage input{
+    margin-bottom: 25px;
+    outline: none;
+    border: none;
+    border-radius: 15px;
+    width: 180px;
+    margin: 5px 0px;
+    border-color: none;
+    text-align: center;
+    height: 22px;
+}
+
+.RegisterPage span{
+    margin-top: 8px;
+}
+
+.title{
+    font-size: 24px;
+}
+
+.RegisterPage input:focus{
+    border: none;
+    border-bottom: 3px solid aqua;
+    box-shadow: none;
+}
+
+.existing-acc{
+    margin-top: 35px;
+}
+
+.login-button{
+    outline: none;
+    border: none;
+    font-size: 14px;
+    margin: 5px;
+    width: 80px;
+    border-radius: 15px;
+    padding:5px;
+    cursor: pointer;
+}
+
+.signup-button{
+    outline: none;
+    border: none;
+    font-size: 14px;
+    width: 80px;
+    border-radius: 15px;
+    padding:5px;
+    cursor: pointer;
+}
+
+.wrong-message{
+    background-color: darkblue;
+    width: 200px;
+    height: auto;
+    padding: 5px;
+    border-radius: 7px;
+    text-align: center;
+    font-size: 14px;
+    white-space: pre-line;
+    transition: all 2000ms;
+}
+
+.hide{
+    visibility: hidden;
+    display: none;
+    }
+
+form{
+    margin: 20px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
